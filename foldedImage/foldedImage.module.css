@@ -1,0 +1,40 @@
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: rgb(27, 25, 25);
+}
+.innerContainer{
+    height:300px;
+    width: 500px;
+    display: flex;
+    justify-content: center;
+   
+}
+.innerContainer div{
+   flex: 1;
+    background-image: url("https://wallpaperaccess.com/full/4403758.jpg");
+    background-size: cover;
+    box-shadow: inset 0px 10px 10px rgba(0,0,0,0.4);
+}
+.innerContainer  div:first-child{
+    background-position: 0;
+   
+}
+.innerContainer  div:nth-child(2){
+    background-position: -125px;
+}
+.innerContainer  div:nth-child(3){
+    background-position: -250px
+}
+.innerContainer  div:last-child{
+    background-position: -375px
+
+}
+.innerContainer div:nth-child(odd){
+    transform: skewY(20deg)
+}
+.innerContainer div:nth-child(even){
+    transform: skewY(-20deg)
+}
