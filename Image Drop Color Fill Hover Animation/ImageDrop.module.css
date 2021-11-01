@@ -1,0 +1,65 @@
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: rgb(4, 4, 20);
+}
+.ImgContainer{
+    position: relative;
+    height: 400px;
+    width: 275px;
+    
+   
+}
+.ImgContainer::before{
+    content: "";
+    width: 20px;
+    height: 20px;
+    background-image: linear-gradient(#fcbc9c, #db0909);
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -60px) rotate(45deg);
+    border-radius: 0% 100% 100% 100%;
+    opacity: 0;
+}
+.ImgContainer:hover::before{
+    animation: drop 0.4s ease-in;
+    
+}
+@keyframes drop {
+    from{
+        opacity: 0;
+        transform: translate(-50%, -60px) rotate(45deg)
+
+    }
+    to{
+        opacity: 1;
+        transform: translate(-50%, 60px) rotate(45deg)
+
+    }
+}
+.greyImg{
+    width: 100%;
+    height: 100%;
+    background-image: url(https://i.pinimg.com/originals/a9/ac/4a/a9ac4aa800b51646e4ff971ed41d5533.jpg);
+    background-size: cover;
+    filter: grayscale(100%);
+}
+.colorImg{
+    width: 100%;
+    height: 100%;
+    background-image: url(https://i.pinimg.com/originals/a9/ac/4a/a9ac4aa800b51646e4ff971ed41d5533.jpg);
+    background-size: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    clip-path: circle(00px at 50% 0%);
+  
+}
+.ImgContainer:hover .colorImg{
+    
+    clip-path: circle(800px at 50% 0%);
+    transition-delay: 0.4s;
+
+}
