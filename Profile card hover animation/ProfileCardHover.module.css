@@ -1,0 +1,79 @@
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+    background-color: black;
+    padding: 0;
+margin: 0;
+}
+.card{
+    position: relative;
+    height:500px;
+    width: 400px;
+    cursor: pointer;
+    border-radius: 10px;
+    background-image: url("https://i.pinimg.com/564x/48/95/63/4895630fd863595ba6ef02173019f4ae.jpg");
+    background-position: center;
+    background-size: 100%;
+    transition: all 0.3s;
+}
+.card::before{
+    content: "";
+    position: absolute;
+    border: 1px solid white;
+    top: 10px;
+    right: 10px;
+    bottom: 10px;
+    left: 10px;
+    opacity: 0;
+    transition: opacity 0.3s;
+    border-radius: 10px;
+}
+.card span{
+    position: absolute;
+    color: #f6f6f6;
+    font-size: 28px;
+    top: 15px;
+    left: 25px;
+    font-family: Segoe UI;
+    text-shadow: 0 5px 5px #111;
+    opacity: 0;
+    transform: translateY(20px);
+    transition: all 0.3s;
+}
+.socialMediaList{
+position: absolute;
+list-style: none;
+color: #f6f6f6;;
+font-size: 25px;
+bottom: 0px;
+padding:0;
+margin-bottom: 20px;
+left: 25px;
+opacity: 0;
+transition: opacity 0.3s;
+}
+.socialMediaList li:not(:last-child){
+padding-bottom: 10px;
+}
+.socialMediaList li{
+    text-align: center;
+   
+}
+.card:hover span{
+opacity: 1;
+transform: translateY(0);
+}
+.card:hover .socialMediaList{
+opacity: 1;
+}
+.card:hover::before{
+    opacity: 1;
+}
+.card:hover{
+    background-size: 200%;
+    background-position: left;
+}
