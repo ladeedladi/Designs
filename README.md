@@ -9,6 +9,7 @@ FoldedImage
 ![Screenshot (390)](https://user-images.githubusercontent.com/81908636/140682417-fb0e5da6-e7e4-4064-87ee-431bcb4b5e46.png)
 Image Drop Color Fill Hover Animation-video link (https://www.linkedin.com/posts/ladeed-s-7b31131a4_reactjs-html5-css3-ugcPost-6860938144477515776-XdfL)
 
+![Screenshot (396)](https://user-images.githubusercontent.com/81908636/140682494-a0cb433a-7369-4e1e-a8bf-91cba85aca99.png)
 Image hover effect-video link (https://www.linkedin.com/posts/ladeed-s-7b31131a4_reactjs-html5-css3-activity-6861171936899293184-7t51) 
 
 Charge level indicator-video link https://www.linkedin.com/posts/ladeed-s-7b31131a4_css3-html5-frontend-activity-6862361987775651840-YeP2
