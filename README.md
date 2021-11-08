@@ -10,3 +10,5 @@ Image Drop Color Fill Hover Animation-video link (https://www.linkedin.com/posts
 Image hover effect-video link (https://www.linkedin.com/posts/ladeed-s-7b31131a4_reactjs-html5-css3-activity-6861171936899293184-7t51) 
 
 Charge level indicator-video link https://www.linkedin.com/posts/ladeed-s-7b31131a4_css3-html5-frontend-activity-6862361987775651840-YeP2
+
+Profile card hover animation -video link https://www.linkedin.com/posts/ladeed-s-7b31131a4_reactjs-html5-css3-activity-6861225126311153664-ZNGK
